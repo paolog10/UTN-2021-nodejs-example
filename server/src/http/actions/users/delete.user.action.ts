@@ -10,7 +10,7 @@ class DeleteUserAction {
 
         try {
             await deleteUserHandler.execute(command);
-        } catch (error) {
+        } catch (error: any) {
             return res.status(404).json({message: error.message});
         }
 

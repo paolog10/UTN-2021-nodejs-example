@@ -11,7 +11,7 @@ class UpdateUserAction {
 
         try {
             await updateUserHandler.execute(command);
-        } catch (error) {
+        } catch (error:any) {
             return res.status(404).json({message: error.message});
         }
 
