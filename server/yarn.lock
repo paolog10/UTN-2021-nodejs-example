@@ -154,6 +154,7 @@
   version "0.0.30"
   resolved "https://registry.npmjs.org/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz"
   integrity sha512-7NQmHra/JILCd1QqpSzl8+mJRc8ZHz3uDm8YV1Ks9IhK0epEiTw8aIErbvH9PI+6XbqhyIQy3462nEsn7UVzjQ==
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 accepts@~1.3.7:
@@ -176,6 +177,13 @@ accepts@~1.3.7:
   "resolved" "https://registry.npmjs.org/accepts/-/accepts-1.3.7.tgz"
   "version" "1.3.7"
 >>>>>>> refactor/entities_to_classes
+=======
+
+accepts@~1.3.7:
+  version "1.3.7"
+  resolved "https://registry.npmjs.org/accepts/-/accepts-1.3.7.tgz"
+  integrity sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
   dependencies:
     mime-types "~2.1.24"
     negotiator "0.6.2"
@@ -216,16 +224,22 @@ ansi-colors@^4.1.1:
   integrity sha512-JoX0apGbHaUJBNl6yF+p6JAFYZ666/hhCGKN5t9QFjbJQKUU/g8MNbFDbvfrgKXvI1QpZplPOnwIo99lX/AAmA==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 ansi-regex@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz"
   integrity sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
+<<<<<<< HEAD
 =======
 "ansi-regex@^5.0.0":
   "integrity" "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
   "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
   "version" "5.0.1"
 >>>>>>> refactor/entities_to_classes
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -272,16 +286,22 @@ astral-regex@^2.0.0:
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 async@^3.1.0:
   version "3.2.1"
   resolved "https://registry.npmjs.org/async/-/async-3.2.1.tgz"
   integrity sha512-XdD5lRO/87udXCMC9meWdYiR+Nq6ZjUfXidViUZGu2F1MO4T3XwZ1et0hb2++BgLfhyJwy44BGB/yx80ABx8hg==
+<<<<<<< HEAD
 =======
 "async@^3.1.0":
   "integrity" "sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ=="
   "resolved" "https://registry.npmjs.org/async/-/async-3.2.4.tgz"
   "version" "3.2.4"
 >>>>>>> refactor/entities_to_classes
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -362,6 +382,9 @@ chokidar@^3.5.1:
   integrity sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==
   dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
     anymatch "~3.1.2"
     braces "~3.0.2"
     glob-parent "~5.1.2"
@@ -369,6 +392,7 @@ chokidar@^3.5.1:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.6.0"
+<<<<<<< HEAD
 =======
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
@@ -386,6 +410,8 @@ chokidar@^3.5.1:
     "normalize-path" "~3.0.0"
     "readdirp" "~3.6.0"
 >>>>>>> refactor/entities_to_classes
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -843,6 +869,9 @@ fs.realpath@^1.0.0:
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
@@ -852,12 +881,15 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
+<<<<<<< HEAD
 =======
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
   "resolved" "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
   "version" "1.1.1"
 >>>>>>> refactor/entities_to_classes
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 
 functional-red-black-tree@^1.0.1:
   version "1.0.1"
@@ -1146,16 +1178,22 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+<<<<<<< HEAD
 =======
 "minimist@^1.2.5":
   "integrity" "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q=="
   "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
   "version" "1.2.6"
 >>>>>>> refactor/entities_to_classes
+=======
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 
 mkdirp@^1.0.4:
   version "1.0.4"
@@ -1697,6 +1735,7 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 v8-compile-cache@^2.0.3:
@@ -1719,6 +1758,13 @@ v8-compile-cache@^2.0.3:
   "resolved" "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
   "version" "2.3.0"
 >>>>>>> refactor/entities_to_classes
+=======
+
+v8-compile-cache@^2.0.3:
+  version "2.3.0"
+  resolved "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
+  integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
+>>>>>>> 849333066a360db4f0c78459b6f6df311f48ef0d
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"

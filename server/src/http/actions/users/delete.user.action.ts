@@ -13,10 +13,13 @@ class DeleteUserAction {
         return res.status(404).json({message});
       }
 
-      return res.status(204).send();
-    } catch (e) {
-      const {message} = e as Error;
-      return res.status(400).json({message});
+        try {
+            await deleteUserHandler.execute(command);
+        } catch (error: any) {
+            return res.status(404).json({message: error.message});
+        }
+
+        return res.status(204).send();
     }
   }
 }

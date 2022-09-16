@@ -5,14 +5,11 @@ import updateUserHandler from "../../../application/handlers/users/update.user.h
 class UpdateUserAction {
   async run(req: Request, res: Response) {
 
-    try {
-      const command = new UpdateUserCommand(
-        req.params.id,
-        req.body.firstName,
-        req.body.lastName,
-        req.body.email,
-        req.body.password
-      );
+        try {
+            await updateUserHandler.execute(command);
+        } catch (error:any) {
+            return res.status(404).json({message: error.message});
+        }
 
       try {
         await updateUserHandler.execute(command);
